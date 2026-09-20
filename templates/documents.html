@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ content.documents.title }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.documents.title }}</h1>
+        <p class="page-subtitle">{{ content.documents.subtitle }}</p>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="cv-row">
+            <a href="{{ url_for('static', filename='documents/cv/cv-fr.pdf') }}" class="doc-btn" target="_blank">📄 CV Français</a>
+            <a href="{{ url_for('static', filename='documents/cv/cv-en.pdf') }}" class="doc-btn" target="_blank">📄 CV English</a>
+        </div>
+        <div class="certs-grid">
+            {% for c in content.documents.certificates %}
+            <a href="{{ url_for('static', filename=c.file.replace('static/', '')) }}" class="cert-card" target="_blank">
+                <span class="cert-icon">🎓</span>
+                <span class="cert-label">{{ c.label }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

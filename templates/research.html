@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}{{ content.research_areas.title }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.research_areas.title }}</h1>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon"><img src="{{ url_for('static', filename='images/climate_modeling.jpeg') }}" alt="Climate Modelling"></div>
+                <h3>{{ content.research_areas.climate.title }}</h3>
+                <ul>{% for i in content.research_areas.climate.points %}<li>{{ i }}</li>{% endfor %}</ul>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="{{ url_for('static', filename='images/atmospheric_physics.png') }}" alt="Atmospheric Physics"></div>
+                <h3>{{ content.research_areas.atmosphere.title }}</h3>
+                <ul>{% for i in content.research_areas.atmosphere.points %}<li>{{ i }}</li>{% endfor %}</ul>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="{{ url_for('static', filename='images/OceanScience.jpeg') }}" alt="Ocean Science"></div>
+                <h3>{{ content.research_areas.ocean.title }}</h3>
+                <ul>{% for i in content.research_areas.ocean.points %}<li>{{ i }}</li>{% endfor %}</ul>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="{{ url_for('static', filename='images/Remote_Sensing.jpg') }}" alt="Remote Sensing"></div>
+                <h3>{{ content.research_areas.remote.title }}</h3>
+                <ul>{% for i in content.research_areas.remote.points %}<li>{{ i }}</li>{% endfor %}</ul>
+            </div>
+            <div class="card card-wide">
+                <div class="card-icon">💻</div>
+                <h3>{{ content.research_areas.data.title }}</h3>
+                <div class="tools-logos">
+                    <img src="{{ url_for('static', filename='images/logo_python.jpeg') }}" alt="Python">
+                    <img src="{{ url_for('static', filename='images/cdo.jpg') }}" alt="CDO">
+                    <img src="{{ url_for('static', filename='images/LOGO_REGCM5.png') }}" alt="RegCM5">
+                    <img src="{{ url_for('static', filename='images/CROCO.png') }}" alt="CROCO">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-alt">
+    <div class="container">
+        <h2 class="section-title center">{{ content.featured.title }}</h2>
+        <div class="featured-grid">
+            {% for item in content.featured.list %}
+            <a href="{{ item.link }}" class="featured-card" style="background-image: url('{{ url_for('static', filename=item.image) }}');">
+                <div class="featured-overlay">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.subtitle }}</p>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

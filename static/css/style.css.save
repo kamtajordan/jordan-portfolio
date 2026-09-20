@@ -1,0 +1,238 @@
+/* =========================================================
+   JORDAN KAMTA NLONFO - PERSONAL WEBSITE
+   ========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f8fb;
+    color: #17202a;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+header {
+    background: rgba(255, 255, 255, 0.97);
+    border-bottom: 1px solid #e5e9ef;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 75px;
+    padding: 0 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: 700;
+    color: #123b5d;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #263746;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: #087ea4;
+}
+
+.navigation .language {
+    border: 1px solid #087ea4;
+    border-radius: 20px;
+    padding: 7px 14px;
+    color: #087ea4;
+}
+
+.navigation .language:hover {
+    background: #087ea4;
+    color: white;
+}
+
+
+/* =========================================================
+   HERO SECTION
+   ========================================================= */
+
+.hero {
+    min-height: calc(100vh - 75px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 80px 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef7fb 0%,
+            #ffffff 50%,
+            #edf5f8 100%
+        );
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.welcome {
+    color: #087ea4;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 7vw, 76px);
+    line-height: 1.1;
+    color: #123b5d;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: clamp(20px, 3vw, 30px);
+    font-weight: 400;
+    color: #456273;
+    margin-bottom: 30px;
+}
+
+.hero p:not(.welcome) {
+    max-width: 750px;
+    margin: auto;
+
+    font-size: 19px;
+    color: #536773;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.buttons {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+
+    padding: 13px 25px;
+
+    border-radius: 30px;
+
+    background: #087ea4;
+    color: white;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #065f7c;
+    transform: translateY(-2px);
+}
+
+.button.secondary {
+    background: transparent;
+    color: #087ea4;
+    border: 1px solid #087ea4;
+}
+
+.button.secondary:hover {
+    background: #087ea4;
+    color: white;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+    background: #102f46;
+    color: #dce8ef;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        min-height: calc(100vh - 150px);
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero h2 {
+        font-size: 21px;
+    
+    .hero p:not(.welcome) {
+        font-size: 17px;
+    }
+}

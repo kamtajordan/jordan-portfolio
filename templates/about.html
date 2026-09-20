@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{ content.about.title }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.about.title }}</h1>
+    </div>
+</section>
+<section class="section">
+    <div class="container two-cols">
+        <div class="col-photo">
+            <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Jordan Kamta Nlonfo">
+        </div>
+        <div class="col-text">
+            <p>{{ content.about.paragraph1 }}</p>
+            <p>{{ content.about.paragraph2 }}</p>
+            <p class="muted">{{ content.about.paragraph3 }}</p>
+            <div class="cv-buttons">
+                <a href="{{ url_for('static', filename='documents/cv/cv-fr.pdf') }}" class="btn btn-primary" target="_blank">{{ content.about.btn_cv }}</a>
+                <a href="{{ url_for('static', filename='documents/cv/cv-en.pdf') }}" class="btn btn-ghost-dark" target="_blank">{{ content.about.btn_cv_en }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

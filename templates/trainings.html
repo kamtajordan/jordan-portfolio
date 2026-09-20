@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ content.trainings.title }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.trainings.title }}</h1>
+        <p class="page-subtitle">{{ content.trainings.subtitle }}</p>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="trainings-grid">
+            {% for t in content.trainings.list %}
+            <div class="training-card">
+                <div class="training-head">
+                    <h3>{{ t.title }}</h3>
+                    {% if t.score %}<span class="score-badge">{{ t.score }}</span>{% endif %}
+                </div>
+                <p class="training-organizer">{{ t.organizer }}</p>
+                <p class="training-period">📅 {{ t.period }}</p>
+                <p class="training-desc">{{ t.description }}</p>
+                {% if t.tags %}
+                <div class="training-tags">
+                    {% for tag in t.tags %}<span class="chip">{{ tag }}</span>{% endfor %}
+                </div>
+                {% endif %}
+                <div class="training-actions">
+                    <a href="{{ t.website }}" class="btn-mini" target="_blank" rel="noopener">🌐 Site officiel</a>
+                    <a href="{{ url_for('static', filename=t.pdf.replace('static/', '')) }}" class="btn-mini btn-mini-alt" target="_blank">📄 Certificat</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

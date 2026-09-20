@@ -1,0 +1,182 @@
+from flask import Flask, render_template, redirect, url_for
+
+app = Flask(__name__)
+
+
+# ============================================================
+# LANGUAGE CONFIGURATION
+# ============================================================
+
+SUPPORTED_LANGUAGES = ["en", "fr"]
+DEFAULT_LANGUAGE = "en"
+
+
+# ============================================================
+# WEBSITE CONTENT
+# ============================================================
+
+CONTENT = {
+
+    "en": {
+        "language_name": "English",
+        "language_switch": "Français",
+
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "research": "Research",
+            "publications": "Publications",
+            "projects": "Projects",
+            "contact": "Contact",
+        },
+
+        "home": {
+            "name": "Jordan Kamta Nlonfo",
+            "title": "Environmental Physicist | Climate Researcher",
+            "description": (
+                "Exploring climate dynamics, atmospheric processes and "
+                "ocean-atmosphere interactions through numerical modelling, "
+                "observations and environmental data analysis."
+            ),
+            "research_button": "Explore my research",
+            "about_button": "About me",
+        },
+
+        "footer": {
+            "copyright": "© 2026 Jordan Kamta Nlonfo. All rights reserved."
+        }
+    },
+
+    "fr": {
+        "language_name": "Français",
+        "language_switch": "English",
+
+        "nav": {
+            "home": "Accueil",
+            "about": "À propos",
+            "research": "Recherche",
+            "publications": "Publications",
+            "projects": "Projets",
+            "contact": "Contact",
+        },
+
+        "home": {
+            "name": "Jordan Kamta Nlonfo",
+            "title": "Physicien de l'environnement | Chercheur en sciences climatiques",
+            "description": (
+                "Étude de la dynamique climatique, des processus atmosphériques "
+                "et des interactions océan-atmosphère à travers la modélisation "
+                "numérique, les observations et l'analyse des données environnementales."
+            ),
+            "research_button": "Découvrir mes recherches",
+            "about_button": "À propos de moi",
+        },
+
+        "footer": {
+            "copyright": "© 2026 Jordan Kamta Nlonfo. Tous droits réservés."
+        }
+    }
+}
+
+
+# ============================================================
+# ROUTES
+# ============================================================
+
+@app.route("/")
+def home():
+    language = DEFAULT_LANGUAGE
+
+    return render_template(
+        "index.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+@app.route("/fr")
+def home_fr():
+    language = "fr"
+
+    return render_template(
+        "index.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+# ============================================================
+# OTHER PAGES
+# ============================================================
+
+@app.route("/<language>/about")
+def about(language):
+
+    if language not in SUPPORTED_LANGUAGES:
+        return redirect(url_for("home"))
+
+    return render_template(
+        "about.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+@app.route("/<language>/research")
+def research(language):
+
+    if language not in SUPPORTED_LANGUAGES:
+        return redirect(url_for("home"))
+
+    return render_template(
+        "research.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+@app.route("/<language>/publications")
+def publications(language):
+
+    if language not in SUPPORTED_LANGUAGES:
+        return redirect(url_for("home"))
+
+    return render_template(
+        "publications.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+@app.route("/<language>/projects")
+def projects(language):
+
+    if language not in SUPPORTED_LANGUAGES:
+        return redirect(url_for("home"))
+
+    return render_template(
+        "projects.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+@app.route("/<language>/contact")
+def contact(language):
+
+    if language not in SUPPORTED_LANGUAGES:
+        return redirect(url_for("home"))
+
+    return render_template(
+        "contact.html",
+        lang=language,
+        content=CONTENT[language]
+    )
+
+
+# ============================================================
+# RUN APPLICATION
+# ============================================================
+
+if __name__ == "__main__":
+    app.run(debug=True)

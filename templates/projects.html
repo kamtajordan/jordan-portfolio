@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ content.nav.projects }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.nav.projects }}</h1>
+    </div>
+</section>
+<section class="section">
+    <div class="container center">
+        <p class="placeholder">{{ 'Projects will be added soon.' if lang == 'en' else 'Projets à venir prochainement.' }}</p>
+    </div>
+</section>
+{% endblock %}

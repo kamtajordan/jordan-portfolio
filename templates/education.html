@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{ content.education.title }} — Kamta Jordan EarthLab{% endblock %}
+{% block content %}
+<section class="page-header">
+    <div class="container">
+        <h1>{{ content.education.title }}</h1>
+        <p class="page-subtitle">{{ content.education.subtitle }}</p>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="edu-timeline">
+            {% for e in content.education.list %}
+            <div class="edu-block">
+                <div class="edu-marker"></div>
+                <div class="edu-content">
+                    <div class="edu-head">
+                        <h3>{{ e.degree }}</h3>
+                        <p class="edu-school">
+                            <a href="{{ e.website }}" target="_blank" rel="noopener">🏛️ {{ e.school }} <span class="ext">↗</span></a>
+                        </p>
+                        <p class="edu-meta">
+                            📍 {{ e.location }} &nbsp;·&nbsp; 📅 {{ e.period }}
+                            {% if e.mention %} &nbsp;·&nbsp; 🎖️ <strong>{{ e.mention }}</strong>{% endif %}
+                        </p>
+                    </div>
+                    <p class="edu-desc">{{ e.description }}</p>
+                    {% if e.courses %}
+                    <details class="edu-courses-details">
+                        <summary>📚 {{ e.courses|length }} cours suivis — cliquez pour développer</summary>
+                        <div class="courses-list">
+                            {% for c in e.courses %}
+                            <div class="course-item">
+                                <div class="course-head">
+                                    <span class="course-name">{{ c.name }}</span>
+                                    {% if c.grade %}<span class="course-grade">{{ c.grade }}</span>{% endif %}
+                                </div>
+                                {% if c.content %}<p class="course-content">{{ c.content }}</p>{% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </details>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

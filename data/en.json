@@ -1,0 +1,752 @@
+{
+  "language_name": "English",
+  "language_switch": "Français",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "research": "Research",
+    "publications": "Publications",
+    "projects": "Projects",
+    "journey": "Journey",
+    "contact": "Contact",
+    "education": "Education",
+    "trainings": "Trainings",
+    "documents": "Documents"
+  },
+  "site": {
+    "name": "Kamta Jordan EarthLab",
+    "tagline": "Exploring Earth through Physics, Climate and Data",
+    "subtitle": "Climate • Atmosphere • Ocean • Earth Observation • Data"
+  },
+  "home": {
+    "name": "Jordan Kamta Nlonfo",
+    "title": "Environmental Physicist | Climate Researcher",
+    "description": "Exploring climate dynamics, atmospheric processes and ocean-atmosphere interactions through numerical modelling, observations and environmental data analysis.",
+    "research_button": "Explore my research",
+    "about_button": "About me",
+    "scroll": "Scroll to explore"
+  },
+  "about": {
+    "title": "About me",
+    "paragraph1": "I am an environmental physicist passionate about climate systems, ocean-atmosphere interactions and climate variability. My expertise relies on the mastery of advanced numerical tools applied to climate science.",
+    "paragraph2": "My research focuses on regional climate modelling (RegCM5, in-situ and satellite data) and ocean modelling (CROCO, in-situ and satellite data). I am currently enrolled in the ICTP Postgraduate Diploma Programme in Earth System Physics (Trieste, Italy).",
+    "btn_cv": "Download CV (EN)",
+    "paragraph3": "I hold a Research Master's degree in Physics, specialized in Environmental Physics, where I worked on: \"Investigating the Atmospheric Stability over Central Africa Using a Regional Climate Model\".",
+    "btn_cv_fr": "Télécharger le CV (FR)"
+  },
+  "research_areas": {
+    "title": "Research Areas",
+    "climate": {
+      "title": "Climate Modelling",
+      "points": [
+        "Regional climate modelling",
+        "Climate variability",
+        "Extreme events",
+        "Climate risk"
+      ]
+    },
+    "atmosphere": {
+      "title": "Atmospheric Physics",
+      "points": [
+        "Atmospheric stability",
+        "Temperature",
+        "Precipitation",
+        "Atmospheric dynamics"
+      ]
+    },
+    "ocean": {
+      "title": "Ocean Science",
+      "points": [
+        "Ocean circulation",
+        "Sea surface height",
+        "Mesoscale variability",
+        "Gulf of Guinea"
+      ]
+    },
+    "remote": {
+      "title": "Remote Sensing",
+      "points": [
+        "Satellite observations",
+        "SST",
+        "SSH",
+        "Ocean colour"
+      ]
+    },
+    "data": {
+      "title": "Scientific Computing",
+      "points": [
+        "Python",
+        "Jupyter",
+        "xarray",
+        "NCL",
+        "CDO",
+        "CROCO",
+        "RegCM5"
+      ]
+    }
+  },
+  "featured": {
+    "title": "Featured Research",
+    "list": [
+      {
+        "title": "Atmospheric Stability over Central Africa",
+        "subtitle": "RegCM5 × ERA5 — 2004–2014",
+        "image": "images/research/topography-central-africa.png",
+        "link": "#"
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications & Scientific Work",
+    "list": [
+      {
+        "year": 2026,
+        "title": "Investigating the Atmospheric Stability over Central Africa Using a Regional Climate Model",
+        "venue": "In preparation",
+        "links": []
+      }
+    ]
+  },
+  "journey": {
+    "title": "My Journey"
+  },
+  "skills": {
+    "title": "Tools & Skills"
+  },
+  "contact": {
+    "title": "Let's connect",
+    "description": "Interested in climate science, environmental physics or ocean research?",
+    "btn_email": "Email me"
+  },
+  "footer": {
+    "copyright": "© 2026 Jordan Kamta Nlonfo. All rights reserved."
+  },
+  "social": {
+    "github": "https://github.com/kamtajordan",
+    "linkedin": "https://www.linkedin.com/in/jordan-kamta-nlonfo-611936281",
+    "orcid": "",
+    "scholar": "",
+    "researchgate": "",
+    "tiktok": "https://www.tiktok.com/@kamta_jordan",
+    "facebook": "https://www.facebook.com/profile.php?id=100080342500924",
+    "x": "https://x.com/KamtaJordan3",
+    "instagram": "https://www.instagram.com/jordankamta35/",
+    "email": "Jordankamta35@gmail.com",
+    "email_ictp": "Jkamta_n@ictp.it",
+    "whatsapp": "https://wa.me/237652415227"
+  },
+  "documents": {
+    "title": "Documents & Certificates",
+    "subtitle": "CV, diplomas and international school certificates",
+    "cv_fr": "static/documents/cv/cv-fr.pdf",
+    "cv_en": "static/documents/cv/cv-en.pdf",
+    "certificates": [
+      {
+        "label": "Gulf of Guinea Ocean Sciences Summer School (GGOSSS)",
+        "file": "static/documents/certificates/ggosss.pdf"
+      },
+      {
+        "label": "ICTP — Earth System Physics",
+        "file": "static/documents/certificates/ictp.pdf"
+      },
+      {
+        "label": "OIF / IFDD — Environmental professions",
+        "file": "static/documents/certificates/oif-ifdd.pdf"
+      },
+      {
+        "label": "ERASMUS",
+        "file": "static/documents/certificates/erasmus.pdf"
+      },
+      {
+        "label": "Green Soldier 2024",
+        "file": "static/documents/certificates/green-soldier-2024.pdf"
+      },
+      {
+        "label": "Green Soldier 2025",
+        "file": "static/documents/certificates/green-soldier-2025.pdf"
+      },
+      {
+        "label": "Modeling Complex Systems",
+        "file": "static/documents/certificates/modeling-complex.pdf"
+      },
+      {
+        "label": "URG Montréal",
+        "file": "static/documents/certificates/urg-montreal.pdf"
+      },
+      {
+        "label": "Fundamentals of Ocean Forecasting",
+        "file": "static/documents/certificates/ocean-forecasting.pdf"
+      }
+    ]
+  },
+  "education": {
+    "title": "Éducation",
+    "title_en": "Education",
+    "subtitle": "Parcours académique et diplômes",
+    "subtitle_en": "Academic background and degrees",
+    "list": [
+      {
+        "degree": "Diplôme d'études supérieures ICTP en physique du système Terre",
+        "degree_en": "ICTP Postgraduate Diploma in Earth System Physics",
+        "school": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+        "location": "Trieste, Italie",
+        "location_en": "Trieste, Italy",
+        "period": "Sept. 2026 – Août 2027",
+        "period_en": "Sept. 2026 – Aug. 2027",
+        "mention": "En cours",
+        "mention_en": "In progress",
+        "website": "https://diploma.ictp.it/",
+        "description": "Pre-doctoral postgraduate programme in Earth System Physics, coordinated by Riccardo Farneti. Term I (Sept–Dec 2026): Wave Physics, Physics of the Earth for Geohazards, Atmospheric Thermodynamics, Climate Physics, Geophysical Fluid Dynamics, Linux Basics, Numerical Methods I, Scientific Python. Term II (Jan–May 2027): Numerical Methods and Data Analysis in GeoScience, Atmospheric Dynamics, Ocean Dynamics, BioGeochemical Cycles, Earth System Modelling, plus Solid Earth courses (Seismology, Space Geodesy & InSAR, Volcano Physics, Tectonophysics).",
+        "description_en": "Pre-doctoral postgraduate programme in Earth System Physics. Core courses: wave physics, Earth physics applied to geohazards, atmospheric thermodynamics, climate physics, geophysical fluid dynamics, numerical methods, Linux and scientific Python, followed by advanced teaching and a research thesis.",
+        "courses": [
+          {
+            "name": "Term I — Wave Physics",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Physics of the Earth for Geohazards",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Atmospheric Thermodynamics",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Climate Physics",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Geophysical Fluid Dynamics",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Linux Basics",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Numerical Methods I",
+            "grade": ""
+          },
+          {
+            "name": "Term I — Scientific Python",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Numerical Methods and Data Analysis in GeoScience",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Atmospheric Dynamics",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Ocean Dynamics",
+            "grade": ""
+          },
+          {
+            "name": "Term II — BioGeochemical Cycles",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Earth System Modelling",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Theoretical Seismology",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Space Geodesy and InSAR",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Applied Seismology",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Physics of Volcanoes",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Mechanics of Earthquakes and Tectonophysics",
+            "grade": ""
+          },
+          {
+            "name": "Term II — Observations and Computer Methods",
+            "grade": ""
+          }
+        ]
+      },
+      {
+        "degree": "Master en physique de l'environnement",
+        "degree_en": "Master in Environmental Physics",
+        "school": "Université de Dschang",
+        "school_en": "University of Dschang",
+        "location": "Dschang, Cameroun",
+        "location_en": "Dschang, Cameroon",
+        "period": "2024 – 2025",
+        "period_en": "2024 – 2025",
+        "mention": "Très Bien",
+        "mention_en": "Very Good (honours)",
+        "website": "https://www.univ-dschang.org/",
+        "description": "Research Master's degree in Environmental Physics. Advanced training in regional climate modelling (RegCM5), oceanography, remote sensing, geostatistics, signal processing, tensor calculus, climate change and advanced numerical methods. Annual average Master 1: 16.07/20 — GPA 3.9 — Very Good (Très Bien). Annual average Master 2: 16.71/20 — GPA 3.9 — Very Good (Très Bien). Master's thesis: 17.50/20 — Very Good.",
+        "description_en": "Master's thesis: \"Study of atmospheric static stability over Central Africa using the RegCM5 model\". Advanced training in environmental physics, climate modelling and data analysis.",
+        "courses": [
+          {
+            "name": "S7 — Atmospheric Physics Databases and Access Languages",
+            "grade": "16.12/20"
+          },
+          {
+            "name": "S7 — Geostatistics and Applied Geomatics",
+            "grade": "15.80/20"
+          },
+          {
+            "name": "S7 — Tensor Calculus",
+            "grade": "16.70/20"
+          },
+          {
+            "name": "S7 — PDEs, Special Functions and Advanced Numerical Methods",
+            "grade": "15.35/20"
+          },
+          {
+            "name": "S7 — Signal Processing",
+            "grade": "18.23/20"
+          },
+          {
+            "name": "S8 — Earth-Ocean-Atmosphere Interaction",
+            "grade": "12.55/20"
+          },
+          {
+            "name": "S8 — Remote Sensing",
+            "grade": "16.52/20"
+          },
+          {
+            "name": "S8 — Geothermics and Geophysical Prospecting by Potential Methods",
+            "grade": "18.27/20"
+          },
+          {
+            "name": "S8 — Atmospheric Thermodynamics",
+            "grade": "15.55/20"
+          },
+          {
+            "name": "S8 — Geomechanics and Geotechnics",
+            "grade": "15.60/20"
+          },
+          {
+            "name": "S9 — Research Methodology",
+            "grade": "15.50/20"
+          },
+          {
+            "name": "S9 — Applied Hydrogeology and Geophysical Prospecting by Geoelectrical Methods",
+            "grade": "15.85/20"
+          },
+          {
+            "name": "S9 — Geophysical Prospecting by Seismic and Electromagnetic Methods",
+            "grade": "17.65/20"
+          },
+          {
+            "name": "S9 — Climate Change",
+            "grade": "16.85/20"
+          },
+          {
+            "name": "S9 — Weather and Climate Modelling",
+            "grade": "13.75/20"
+          },
+          {
+            "name": "S10 — Master's Thesis: \"Investigating the Atmospheric Stability over Central Africa Using a Regional Climate Model\"",
+            "grade": "17.50/20"
+          }
+        ]
+      },
+      {
+        "degree": "Licence de physique — Spécialité physique de l'environnement",
+        "degree_en": "Bachelor in Physics — Environmental Physics",
+        "school": "Université de Dschang",
+        "school_en": "University of Dschang",
+        "location": "Dschang, Cameroun",
+        "location_en": "Dschang, Cameroon",
+        "period": "2022 – 2023",
+        "period_en": "2022 – 2023",
+        "mention": "Bien",
+        "mention_en": "Good (honours)",
+        "website": "https://www.univ-dschang.org/",
+        "description": "Bachelor's degree in Physics with specialization in Environmental Physics. Fundamental training covering mechanics, electromagnetism, thermodynamics, quantum physics, statistical physics, oceanography, meteorology, geophysics and numerical methods. Annual average: 14.60/20 — GPA 3.3 — Honours (Bien).",
+        "description_en": "Bachelor's degree in Physics with specialization in Environmental Physics. Fundamental training in classical mechanics, electromagnetism, thermodynamics, quantum physics and environmental physics.",
+        "courses": [
+          {
+            "name": "S1 — Electrostatics",
+            "grade": "13.82/20"
+          },
+          {
+            "name": "S1 — Mechanics of the material point",
+            "grade": "16.35/20"
+          },
+          {
+            "name": "S1 — Mathematical Analysis for Physical Sciences",
+            "grade": "15.50/20"
+          },
+          {
+            "name": "S1 — General Chemistry for Physical Sciences I",
+            "grade": "15.25/20"
+          },
+          {
+            "name": "S1 — English Language I",
+            "grade": "13.50/20"
+          },
+          {
+            "name": "S1 — Experimental Physics",
+            "grade": "13.10/20"
+          },
+          {
+            "name": "S2 — Magnetostatics and variable regimes",
+            "grade": "14.75/20"
+          },
+          {
+            "name": "S2 — Differential Calculus and Geometry",
+            "grade": "15.65/20"
+          },
+          {
+            "name": "S2 — Algorithms and Introduction to Programming",
+            "grade": "16.45/20"
+          },
+          {
+            "name": "S2 — Geometric Optics",
+            "grade": "17.83/20"
+          },
+          {
+            "name": "S2 — Environmental Physics",
+            "grade": "16.27/20"
+          },
+          {
+            "name": "S2 — General Chemistry for Physical Sciences II",
+            "grade": "17.25/20"
+          },
+          {
+            "name": "S3 — Solid Mechanics",
+            "grade": "12.40/20"
+          },
+          {
+            "name": "S3 — Introduction to Quantum Physics",
+            "grade": "16.60/20"
+          },
+          {
+            "name": "S3 — Basic Electronics",
+            "grade": "13.80/20"
+          },
+          {
+            "name": "S3 — Numerical and Functional Series",
+            "grade": "12.85/20"
+          },
+          {
+            "name": "S3 — Scientific English II",
+            "grade": "10.00/20"
+          },
+          {
+            "name": "S3 — Introduction to Internal and External Geophysics",
+            "grade": "13.93/20"
+          },
+          {
+            "name": "S4 — Physical Thermodynamics",
+            "grade": "13.05/20"
+          },
+          {
+            "name": "S4 — Electromagnetism and Special Relativity",
+            "grade": "13.82/20"
+          },
+          {
+            "name": "S4 — Linear Algebra, Probability and Statistics",
+            "grade": "13.77/20"
+          },
+          {
+            "name": "S4 — Introduction to Scientific Computing and Programming",
+            "grade": "16.77/20"
+          },
+          {
+            "name": "S4 — Introduction to Nuclear Physics",
+            "grade": "14.40/20"
+          },
+          {
+            "name": "S4 — Fluid Statics",
+            "grade": "11.80/20"
+          },
+          {
+            "name": "S5 — Quantum Mechanics",
+            "grade": "13.15/20"
+          },
+          {
+            "name": "S5 — Mathematics for Physical Sciences",
+            "grade": "15.30/20"
+          },
+          {
+            "name": "S5 — Electronics",
+            "grade": "16.08/20"
+          },
+          {
+            "name": "S5 — Coherent Optics",
+            "grade": "16.75/20"
+          },
+          {
+            "name": "S5 — Statistical Physics and Solid State Physics",
+            "grade": "14.32/20"
+          },
+          {
+            "name": "S5 — Scientific English III",
+            "grade": "11.90/20"
+          },
+          {
+            "name": "S6 — Oceanography",
+            "grade": "13.70/20"
+          },
+          {
+            "name": "S6 — Internal Geophysics",
+            "grade": "10.35/20"
+          },
+          {
+            "name": "S6 — General Meteorology",
+            "grade": "14.13/20"
+          },
+          {
+            "name": "S6 — Geothermics and Geophysical Fluid Mechanics",
+            "grade": "14.45/20"
+          },
+          {
+            "name": "S6 — Vibrations and Propagation Phenomena",
+            "grade": "16.50/20"
+          },
+          {
+            "name": "S6 — Numerical Methods",
+            "grade": "16.50/20"
+          }
+        ]
+      },
+      {
+        "degree": "Baccalauréat scientifique — Séries Mathématiques / Physique",
+        "degree_en": "Scientific Baccalaureate — Mathematics / Physics",
+        "school": "Lycée Bilingue Rural de Mbouda",
+        "school_en": "Lycée Bilingue Rural de Mbouda",
+        "location": "Mbouda, Cameroun",
+        "location_en": "Mbouda, Cameroon",
+        "period": "2019 – 2020",
+        "period_en": "2019 – 2020",
+        "mention": "Bien",
+        "mention_en": "Good (honours)",
+        "website": "https://lybimbo.blog4ever.com/",
+        "description": "Scientific Baccalaureate, Mathematics / Physics series. Fundamental training in mathematics, physics, chemistry, life and earth sciences, philosophy, English, history-geography, computer science, civic education and physical education.",
+        "description_en": "Scientific Baccalaureate, Mathematics / Physics series. Fundamental training in mathematics, physics, chemistry and biology.",
+        "courses": [
+          {
+            "name": "Mathematics",
+            "grade": ""
+          },
+          {
+            "name": "Physics",
+            "grade": ""
+          },
+          {
+            "name": "Chemistry",
+            "grade": ""
+          },
+          {
+            "name": "Life and Earth Sciences",
+            "grade": ""
+          },
+          {
+            "name": "Philosophy",
+            "grade": ""
+          },
+          {
+            "name": "English",
+            "grade": ""
+          },
+          {
+            "name": "History-Geography",
+            "grade": ""
+          },
+          {
+            "name": "Computer Science",
+            "grade": ""
+          },
+          {
+            "name": "Citizenship and Moral Education",
+            "grade": ""
+          },
+          {
+            "name": "Physical Education and Sports",
+            "grade": ""
+          }
+        ]
+      }
+    ]
+  },
+  "trainings": {
+    "title": "Scientific Training & Research Schools",
+    "subtitle": "International schools, workshops and certifications",
+    "list": [
+      {
+        "title": "Fundamentals of Ocean Forecasting (OPERA MOOC)",
+        "organizer": "ICMPA–UNESCO Chair · GGOSSS · OceanPrediction DCC — FutureLearn",
+        "period": "July – Sept. 2026 · Online",
+        "description": "End-to-end ocean forecasting systems: ocean dynamics, numerical models, observations and data assimilation, forecast interpretation and downstream applications (maritime safety, fisheries, coastal risk).",
+        "website": "https://www.futurelearn.com/courses/fundamentals-of-ocean-forecasting",
+        "pdf": "static/documents/certificates/ocean-forecasting.pdf",
+        "tags": [
+          "Ocean forecasting",
+          "Data assimilation",
+          "Numerical models"
+        ],
+        "score": "96%"
+      },
+      {
+        "title": "ASP2026 — 9th African School of Fundamental and Applied Physics",
+        "organizer": "ICTP · Brookhaven National Laboratory · University of Nairobi",
+        "period": "5 – 19 July 2026 · Nairobi, Kenya",
+        "description": "Intensive two-week school in fundamental and applied physics with societal applications, bringing together African and international students, researchers and teachers.",
+        "website": "https://africanschoolofphysics.org/asp2026/",
+        "pdf": "static/documents/certificates/asp2026.pdf",
+        "tags": [
+          "Fundamental physics",
+          "Applied physics"
+        ]
+      },
+      {
+        "title": "Geodesy for a Resilient Africa Summer School",
+        "organizer": "AIMS-Cameroon · International Association of Geodesy (IAG)",
+        "period": "29 June – 3 July 2026 · Limbe, Cameroon",
+        "description": "Satellite data processing, geodetic reference systems, vertical datums, sea level monitoring, coastal dynamics, data-based climate risk assessment.",
+        "website": "https://aims-cameroon.org/event/geodesy-for-a-resilient-africa-summer-school/",
+        "pdf": "static/documents/certificates/geodesy-africa.pdf",
+        "tags": [
+          "Geodesy",
+          "Sea level",
+          "Satellite data"
+        ]
+      },
+      {
+        "title": "Machine Learning for Earth Systems Modelling — Course 1",
+        "organizer": "ECMWF · Destination Earth (DestinE) · European Commission",
+        "period": "16 March – 10 April 2026 · Online",
+        "description": "Foundations of Machine Learning applied to Earth system modelling: digital twins, AI ethics and regulation, future perspectives.",
+        "website": "https://events.ecmwf.int/event/534/overview",
+        "pdf": "static/documents/certificates/ml-course1.pdf",
+        "tags": [
+          "Machine learning",
+          "Earth system",
+          "Digital twins"
+        ]
+      },
+      {
+        "title": "Machine Learning for Earth Systems Modelling — Course 2",
+        "organizer": "ECMWF · Destination Earth (DestinE) · European Commission",
+        "period": "2026 · Online",
+        "description": "Neural architectures for atmospheric dynamics (CNN, GNN, Transformers), data management, AI-based forecasting systems (AIFS) and the European Anemoi framework.",
+        "website": "https://destine.ecmwf.int/machine-learning-training/",
+        "pdf": "static/documents/certificates/ml-course2.pdf",
+        "tags": [
+          "CNN",
+          "GNN",
+          "Transformers",
+          "AIFS",
+          "Anemoi"
+        ]
+      },
+      {
+        "title": "MC2S-LPS — Modeling and Control of Complex Systems",
+        "organizer": "University of Dschang · MoCLiS Research Group",
+        "period": "24 – 28 Nov. 2025 · Dschang, Cameroon",
+        "description": "Research school on mathematical modelling, analysis and control of complex systems in life and physical sciences.",
+        "website": "https://mc2s-lps.sciencesconf.org/",
+        "pdf": "static/documents/certificates/modeling-complex.pdf",
+        "tags": [
+          "Complex systems",
+          "Mathematical modelling"
+        ]
+      },
+      {
+        "title": "GGOSSS 2025 — Gulf of Guinea Ocean Sciences Summer School",
+        "organizer": "ICMPA–UNESCO Chair · University of Dschang",
+        "period": "25 – 29 Aug. 2025 · Dschang, Cameroon",
+        "description": "Practical training on ocean circulation, in-situ measurements (ADCP, CTD, drifters), satellite observations (SWOT), remote sensing, CROCO regional modelling and Python data processing.",
+        "website": "https://www.ggosss.org/2025school",
+        "pdf": "static/documents/certificates/ggosss.pdf",
+        "tags": [
+          "CROCO",
+          "Remote sensing",
+          "SWOT",
+          "Python"
+        ]
+      },
+      {
+        "title": "PWF School on Climate Modelling",
+        "organizer": "ICTP · University of Dschang",
+        "period": "5 – 9 June 2023 · Dschang, Cameroon",
+        "description": "Introduction to regional climate modelling with RegCM: installation, configuration, simulations, climate variability, statistical model evaluation.",
+        "website": "https://indico.ictp.it/event/10343/overview",
+        "pdf": "static/documents/certificates/pwf-climate.pdf",
+        "tags": [
+          "RegCM",
+          "Climate simulations"
+        ]
+      },
+      {
+        "title": "Environmental professions (Métiers de l'environnement)",
+        "organizer": "IFDD — Organisation Internationale de la Francophonie",
+        "period": "2024 · Online",
+        "description": "Environmental professions and sustainable development: water, sustainable energy, urbanization, environmental biotechnology and innovation.",
+        "website": "https://www.ifdd.francophonie.org/formations/metiers-de-lenvironnement/",
+        "pdf": "static/documents/certificates/oif-ifdd.pdf",
+        "tags": [
+          "Environment",
+          "Sustainable development"
+        ]
+      },
+      {
+        "title": "Green Soldiers — Climate Life Movement",
+        "organizer": "Climate Life Movement",
+        "period": "May 2024 · Yaoundé, Cameroon",
+        "description": "Climate awareness and action focused on youth engagement and digital tools for environmental activism.",
+        "website": "https://www.linkedin.com/company/climate-life-movement/",
+        "pdf": "static/documents/certificates/green-soldier-2024.pdf",
+        "tags": [
+          "Climate action",
+          "Advocacy"
+        ]
+      },
+      {
+        "title": "Green Soldiers — Climate Life Movement (2025)",
+        "organizer": "Climate Life Movement",
+        "period": "2025",
+        "description": "Second edition — continued engagement in climate action, environmental integrity and digital communication.",
+        "website": "https://www.linkedin.com/company/climate-life-movement/",
+        "pdf": "static/documents/certificates/green-soldier-2025.pdf",
+        "tags": [
+          "Climate action"
+        ]
+      },
+      {
+        "title": "Environmental Modelling Seminar",
+        "organizer": "Polytechnique Montréal · University of Dschang",
+        "period": "Nov. 2024 · Dschang, Cameroon",
+        "description": "Academic collaborations in environmental sciences: 3D gravimetric interpretation, GIS (ArcGIS, QGIS, Oasis Montaj), geothermal and environmental applications.",
+        "website": "https://www.polymtl.ca/",
+        "pdf": "static/documents/certificates/urg-montreal.pdf",
+        "tags": [
+          "GIS",
+          "Environmental modelling"
+        ]
+      },
+      {
+        "title": "International School — Simulation Methods in Materials Physics",
+        "organizer": "University of Dschang · Le Mans Université",
+        "period": "21 – 24 May 2025 · Dschang, Cameroon",
+        "description": "Numerical and simulation methods applied to complex physical systems: ab initio (DFT), kinetic Monte Carlo (kMC), molecular dynamics, finite elements, machine learning for materials science.",
+        "website": "https://www.univ-dschang.org/",
+        "pdf": "static/documents/certificates/erasmus.pdf",
+        "tags": [
+          "DFT",
+          "Monte Carlo",
+          "Molecular dynamics"
+        ]
+      }
+    ]
+  }
+}

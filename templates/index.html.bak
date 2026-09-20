@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ content.home.name }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                Jordan Kamta Nlonfo
+            </div>
+
+            <div class="navigation">
+
+                {% if lang == "en" %}
+
+                    <a href="/">Home</a>
+                    <a href="/en/about">About</a>
+                    <a href="/en/research">Research</a>
+                    <a href="/en/publications">Publications</a>
+                    <a href="/en/projects">Projects</a>
+                    <a href="/en/contact">Contact</a>
+
+                    <a href="/fr" class="language">
+                        🇫🇷 Français
+                    </a>
+
+                {% else %}
+
+                    <a href="/fr">Accueil</a>
+                    <a href="/fr/about">À propos</a>
+                    <a href="/fr/research">Recherche</a>
+                    <a href="/fr/publications">Publications</a>
+                    <a href="/fr/projects">Projets</a>
+                    <a href="/fr/contact">Contact</a>
+
+                    <a href="/" class="language">
+                        🇬🇧 English
+                    </a>
+
+                {% endif %}
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <p>Welcome to my personal website</p>
+
+            <h1>
+                {{ content.home.name }}
+            </h1>
+
+            <h2>
+                {{ content.home.title }}
+            </h2>
+
+            <p>
+                {{ content.home.description }}
+            </p>
+
+            {% if lang == "en" %}
+
+                <a href="/en/research">
+                    {{ content.home.research_button }}
+                </a>
+
+                <a href="/en/about">
+                    {{ content.home.about_button }}
+                </a>
+
+            {% else %}
+
+                <a href="/fr/research">
+                    {{ content.home.research_button }}
+                </a>
+
+                <a href="/fr/about">
+                    {{ content.home.about_button }}
+                </a>
+
+            {% endif %}
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            {{ content.footer.copyright }}
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
