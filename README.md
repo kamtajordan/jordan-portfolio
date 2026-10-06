@@ -1,16 +1,16 @@
-# 🌍 Kamta Jordan EarthLab
+#  Kamta Jordan EarthLab
 
 Personal scientific portfolio of **Jordan Kamta Nlonfo** — Environmental Physicist.
 
 > *Exploring Earth through Physics, Climate and Data.*
 
-## 🔬 About
+##  About
 
 Environmental physicist working at the intersection of climate, atmosphere, ocean and Earth observation. Research on atmospheric static stability over Central Africa using the **RegCM5** regional climate model, ocean modelling with **CROCO**, and satellite data analysis.
 
 Currently enrolled in the **ICTP Postgraduate Diploma Programme** in Earth System Physics (Trieste, Italy).
 
-## 🎯 Features
+##  Features
 
 - Bilingual (EN / FR)
 - 3D animated Earth (Three.js)
@@ -20,7 +20,7 @@ Currently enrolled in the **ICTP Postgraduate Diploma Programme** in Earth Syste
 - Training & certificates section
 - Contact + WhatsApp integration
 
-## 🛠️ Stack
+## Stack
 
 - Backend : Flask, Python 3.12
 - Frontend : HTML, CSS, JavaScript
@@ -28,7 +28,7 @@ Currently enrolled in the **ICTP Postgraduate Diploma Programme** in Earth Syste
 - Data : JSON (bilingual)
 - Deploy : Render + Gunicorn
 
-## 🚀 Run locally
+##  Run locally
 
     git clone https://github.com/kamtajordan/jordan-portfolio.git
     cd jordan-portfolio
@@ -39,7 +39,7 @@ Currently enrolled in the **ICTP Postgraduate Diploma Programme** in Earth Syste
 
 Open http://127.0.0.1:5000
 
-## 📁 Structure
+##  Structure
 
     jordan-portfolio/
     ├── app.py
@@ -59,10 +59,6 @@ Open http://127.0.0.1:5000
 ## 📫 Contact
 
 - Email : jordankamta35@gmail.com
-- ICTP : Jkamta_n@ictp.it
-- WhatsApp : https://wa.me/237652415227
-- GitHub : https://github.com/kamtajordan
-- LinkedIn : https://www.linkedin.com/in/jordan-kamta-nlonfo-611936281
 
 ## 📄 License
 
